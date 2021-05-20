@@ -1,0 +1,79 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1D2228;
+}
+
+/* navbar css starts here  */
+.bg-light
+{
+    background-color: #FB8122!important;
+}
+
+.navbar-brand
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #FFFFFF!important;
+}
+
+.nav-link
+{
+    color: #FFFFFF!important;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.nav-link:hover
+{
+    background-color: #E1E2E2;
+}
+
+/* navbar css ends here  */
+
+.my-info
+{
+    padding: 2rem 5rem;
+}
+
+.btn-info
+{
+    padding: 1rem 1.2rem;
+    background-color: #FB8122!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover
+{
+    background-color: #E1E2E2!important;
+}
+
+.table-danger, .table-danger>td, .table-danger>th
+{
+    background-color: #E1E2E2;
+}
+.table-danger:hover
+{
+    background-color: #FB8122;
+}
+
+.table-light, .table-light>td, .table-light>th
+{
+    background-color: #FB8122;
+}
+.table-light:hover
+{
+    background-color: #FB8122;
+}
+
+.table-info, .table-info>td, .table-info>th
+{
+    background-color: #E1E2E2;
+}
+.table-info:hover
+{
+    background-color: #FB8122;
+}

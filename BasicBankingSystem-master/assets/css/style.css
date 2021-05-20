@@ -1,0 +1,158 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #C6AD8F;
+}
+
+/* splash screen css starts here  */
+
+#loading
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #1D2228 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+
+/* splash screen css ends here  */
+/* navbar css starts here  */
+
+.bg-light
+{
+    background-color: #FB8122!important;
+}
+
+.navbar-brand
+{
+     font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff!important;
+}
+
+.nav-link
+{
+    color: #ffffff!important;
+     font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover
+{
+    background-color: #E1E2E2;
+}
+
+/* navbar css ends here  */
+/* here content css starts here  */
+
+.hero-content
+{
+    height: 100vh;
+    background-color: #1D2228;
+    color: #ffffff;
+    padding: 3rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img
+{
+    height: 70vh;
+    width: 100%;
+    border-radius: 10%;
+}
+
+@media only screen and (max-width: 766px) 
+{
+    .hero-img 
+    {
+      display: none;
+    }
+}
+
+.get-started
+{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #FB8122;
+    color: #ffffff!important;
+    transition: 0.3s;
+}
+
+.get-started:hover
+{
+    text-decoration: none;
+    background-color: #E1E2E2;
+    
+}
+
+/* here content css starts here  */
+/* get-started-buttons css starts here*/
+
+.get-started-content
+{
+    height: 60vh;
+    background-color: #1D2228;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row
+{
+    padding: 25vh 0;
+}
+
+.get-started-content a
+{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #FB8122;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover
+{
+    background-color: #E1E2E2;
+    text-decoration: none;
+}
+
+/* get-started-buttons css end here*/
+/* footer css starts here */
+
+footer
+{
+    background-color:  #FB8122;
+}
+
+.social-icons li
+{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github
+{
+    color: #ffffff;
+}
+
+.linkedin
+{
+    color: #ffffff;
+}
+
+.google
+{
+    color: #ffffff;
+}
+
+/* footer css ends here  */
